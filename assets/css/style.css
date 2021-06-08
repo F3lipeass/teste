@@ -2,6 +2,7 @@
 
 
 .titulo{
+  margin: auto;
   padding: 30px;
   background:rgba(69, 160, 104, 0.979);
   color: aliceblue;
@@ -11,20 +12,71 @@
 }
 
 .cabecalho{
-  background: seagreen;
+  background: rgb(53, 163, 101);
   color: aliceblue;
   padding: 20px;
 
 }
 
+.main{
+  padding: 200px;
+  text-align: center;
+}
+
+/* LISTA DE CATEGORIAS*/
+
+#hardware{
+display: inline;
+
+}
+
+#smartphone{
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+
+#periferico{
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+
+#computador{
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+
+#monitor{
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+
+#tecladomouse{
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+
+#homeoffice{
+  display: inline-block;
+  margin: 0 0 0 15px;
+  
+  
+}
+
+/*--------------------------*/
+
+/*PÁGINA DE HARDWARE*/
+
+.itenshardware{
+  text-align: center;
+}
+/*----------------------------------->*/
 
 
 /* RODAPÉ*/
 
 .rodape{
-
-  background: rgb(24, 121, 72);
-  color: aliceblue;
+  margin: auto;
+  background: rgb(28, 133, 80);
   padding: 20px;
 }
 
