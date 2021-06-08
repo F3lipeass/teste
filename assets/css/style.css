@@ -1,0 +1,38 @@
+/*CABEÇALHO*/
+
+
+.titulo{
+  padding: 30px;
+  background:rgba(69, 160, 104, 0.979);
+  color: aliceblue;
+  text-align: center;
+
+
+}
+
+.cabecalho{
+  background: seagreen;
+  color: aliceblue;
+  padding: 20px;
+
+}
+
+
+
+/* RODAPÉ*/
+
+.rodape{
+
+  background: rgb(24, 121, 72);
+  color: aliceblue;
+  padding: 20px;
+}
+
+#twitter{
+height: 15px;
+margin-left: -5px;
+}
+
+#instagram{
+  height: 18px;
+}
