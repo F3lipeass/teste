@@ -9,6 +9,7 @@
   text-align: center;
 
 
+
 }
 
 .cabecalho{
@@ -27,40 +28,48 @@
 
 #hardware{
 display: inline;
+border: 3px groove rgb(48, 245, 48);
+padding: 5px;
+background: rgb(6, 214, 41);
+border-radius: 15px;
+transition: all 0.5s;
 
 }
 
-#smartphone{
+#hardware, #smartphone, #periferico, #computador,
+#monitor, #tecladomouse, #homeoffice {
   display: inline-block;
   margin: 0 0 0 15px;
+  border: 3px groove rgb(48, 245, 48);
+  padding: 5px;
+  background: rgb(6, 214, 41);
+  border-radius: 15px;
+  transition: all 0.5s;
 }
 
-#periferico{
-  display: inline-block;
-  margin: 0 0 0 15px;
+#hardware:hover{
+  border-radius: 40%;
+}
+#smartphone:hover{
+  border-radius: 40%;
+}
+#periferico:hover{
+  border-radius: 40%;
+}
+#computador:hover{
+  border-radius: 40%;
+}
+#monitor:hover{
+  border-radius: 40%;
+}
+#tecladomouse:hover{
+  border-radius: 40%;
+}
+#homeoffice:hover{
+  border-radius: 40%;
 }
 
-#computador{
-  display: inline-block;
-  margin: 0 0 0 15px;
-}
 
-#monitor{
-  display: inline-block;
-  margin: 0 0 0 15px;
-}
-
-#tecladomouse{
-  display: inline-block;
-  margin: 0 0 0 15px;
-}
-
-#homeoffice{
-  display: inline-block;
-  margin: 0 0 0 15px;
-  
-  
-}
 
 /*--------------------------*/
 
