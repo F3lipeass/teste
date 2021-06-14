@@ -2,20 +2,31 @@
 
 
 .titulo{
-  margin: auto;
+
   padding: 30px;
-  background:rgba(69, 160, 104, 0.979);
   color: aliceblue;
   text-align: center;
+
+  font-family:'Do Hyeon', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+
+
 
 
 
 }
 
+nav{
+  text-align: center;
+}
+
 .cabecalho{
-  background: rgb(53, 163, 101);
+  background-image: linear-gradient(#1E6F5C, #289672, #29BB89 ) ;
   color: aliceblue;
   padding: 20px;
+  margin: 0%;
+
 
 }
 
@@ -28,9 +39,9 @@
 
 #hardware{
 display: inline;
-border: 3px groove rgb(48, 245, 48);
+border: 3px groove #E6DD3B;
 padding: 5px;
-background: rgb(6, 214, 41);
+background: #E6DD3B;
 border-radius: 15px;
 transition: all 0.5s;
 
@@ -40,12 +51,29 @@ transition: all 0.5s;
 #monitor, #tecladomouse, #homeoffice {
   display: inline-block;
   margin: 0 0 0 15px;
-  border: 3px groove rgb(48, 245, 48);
+  border: 3px groove #E6DD3B;
   padding: 5px;
-  background: rgb(6, 214, 41);
+  background: #E6DD3B;
   border-radius: 15px;
   transition: all 0.5s;
+
+  font-family: 'Do Hyeon', sans-serif;
+  font-weight: 400;
+  text-shadow: 2px 1px white;
+  font-size: 20px;
+
+  
+
 }
+
+a:link 
+{ 
+ text-decoration:none; 
+
+
+}
+
+
 
 #hardware:hover{
   border-radius: 40%;
